@@ -5,10 +5,12 @@
 Le projet consiste à afficher sur une carte les données des différentes populations par états des états-unis.
 
 ## Insights
-
-- quel état à une population susceptible d’aller aux urgences ?
 - quels sont les facteurs de risque les + importants par état ?
 - quelle ethnie est la plus représentée par état ?
+- quel état à une population susceptible d’aller le + aux urgences ?
+- quelles sont les ethnies les plus distribuées et avec le plus de risques ?
+- quelles sont les typologies de personnes en surpoids ? 
+- quel est leur style de vie?
 
 ## Valeur ajoutée
 Déterminer le profil type des populations par état des Etats-Unis afin de :
