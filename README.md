@@ -2,27 +2,31 @@
 
 ## Description
 
-Le projet consiste à afficher sur une carte les données des différentes populations d’états des états-unis.
+Le projet consiste à afficher sur une carte les données des différentes populations par états des états-unis.
 
 ## Insights
 
-quel état à une population susceptible d’aller aux urgences ?
-quels sont les facteurs de risque les + importants par état ?
-quelle ethnie est la plus représentée par état ?
+- quel état à une population susceptible d’aller aux urgences ?
+- quels sont les facteurs de risque les + importants par état ?
+- quelle ethnie est la plus représentée par état ?
 
 ## Valeur ajoutée
 Déterminer le profil type des populations par état des Etats-Unis afin de :
-mieux cibler les publicités
-mieux gérer les facteurs de risque par état
-Target
-gouvernement
-publicitaire
-médias
+- mieux cibler les publicités
+- mieux gérer les facteurs de risque par état
+
+## Target
+- gouvernement
+- publicitaires
+- commerces
+- services publics
 
 # Pipeline big data
 ## Architecture
 ### Collecte
-- open data donc pas de data compliance ni RGPD https://www.healthdata.gov/dataset/community-health-status-indicators-chsi-combat-obesity-heart-disease-and-cancer/resource 
+https://www.healthdata.gov/dataset/community-health-status-indicators-chsi-combat-obesity-heart-disease-and-cancer/resource 
+
+- open data donc pas de data compliance ni RGPD 
 - pas de web scrapping nécessaire
 - Transformation des fichiers CSV en 1 fichier JSON grâce à un script 
 > but : écrire 1 seul fichier json qui rassemble toutes les données des fichiers csv avec en première clé, le nom de l’état US
@@ -39,31 +43,31 @@ médias
 - quelle est la structure de ces documents? JSON, 1 enregistrement = 1 ligne csv
 - quelles sont les contraintes qui portent sur le contenu des documents?
 
-#### Si les données sont semi-structurées 
-utiliser Cassandra (fichiers json ou xml)
+#### Si les données sont semi-structurées, utiliser : 
+##### Cassandra (fichiers json ou xml)
 - très proche du modèle SGBD, Cassandra permet de vérifier le type de donnée inséré dans une table et de garantir la véracité des données
 - utilise la clé paire-valeur (colonne) et les documents (lignes) = structure atomique de représentation des informations semi-structurées
 - utilise les index grâce aux identifiants uniques associés à une paire clé-valeur
 - permet de tracer l’historique des données
 - inconvénient : le modèle est figé donc les données ne sont pas réutilisables ou scalables 
 
-utiliser MongoDB (fichiers json)
+##### MongoDB (fichiers json)
 - base centralisée pour le stockage de documents JSON
 - capacité à passer en mode distribué pour répartir le stockage et les traitements
 - pas de schéma relationnel donc possibilité d’insérer des docs json
 - inconvénient : contrôle des données du côté application et non lors de leur insertion
 
-utiliser Hive (fichiers csv)
+##### Hive (fichiers csv)
 - modèle de données relationnelles basé sur les données contenues dans HDFS 
 - le métastore stocke le modèle de BDD (définition des tables + métadonnées) 
 - inférence possible des types de données
 - utilisation de HiveQL, proche de SQL pour faire des requêtes
 
-utiliser Pig
+##### Pig
 - langage scripting pour exécution des jobs MapReduce
 
-#### Si les données sont non structurées, 
-utiliser HBase 
+#### Si les données sont non structurées, utiliser :
+##### HBase 
 - si données avec beaucoup de colonnes dont une majorité de cellules sont vides
 - utilisation des données directement dans HDFS sans passer par des tâches
 - capacité à gérer beaucoup de données (de l’ordre du Po)
