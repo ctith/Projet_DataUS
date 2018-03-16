@@ -1,0 +1,134 @@
+[
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Low Birth Wt. (<2500 g)",
+    "US_Pct_or_Rate_2003": 7.9,
+    "Healthy_People_2010_Target": 5
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Very Low Birth Wt. (<1500 g)",
+    "US_Pct_or_Rate_2003": 1.4,
+    "Healthy_People_2010_Target": 0.9
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Premature Births (<37 weeks)",
+    "US_Pct_or_Rate_2003": 12.3,
+    "Healthy_People_2010_Target": 7.6
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Births to Women under 18",
+    "US_Pct_or_Rate_2003": 3.4,
+    "Healthy_People_2010_Target": -9998.9
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Births to Women over 40",
+    "US_Pct_or_Rate_2003": 2.6,
+    "Healthy_People_2010_Target": -9998.9
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "Births to Unmarried Women",
+    "US_Pct_or_Rate_2003": 34.6,
+    "Healthy_People_2010_Target": -9998.9
+  },
+  {
+    "Categories": "Birth Measures",
+    "Elements": "No Care in First Trimester",
+    "US_Pct_or_Rate_2003": 16,
+    "Healthy_People_2010_Target": 10
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "Infant Mortality",
+    "US_Pct_or_Rate_2003": 6.8,
+    "Healthy_People_2010_Target": 4.5
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "White non Hispanic Infant Mortality",
+    "US_Pct_or_Rate_2003": 5.7,
+    "Healthy_People_2010_Target": 4.5
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "Black non Hispanic Infant Mortality",
+    "US_Pct_or_Rate_2003": 13.6,
+    "Healthy_People_2010_Target": 4.5
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "Hispanic Infant Mortality",
+    "US_Pct_or_Rate_2003": 5.6,
+    "Healthy_People_2010_Target": 4.5
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "Neonatal Infant Mortality",
+    "US_Pct_or_Rate_2003": 4.6,
+    "Healthy_People_2010_Target": 2.9
+  },
+  {
+    "Categories": "Infant Mortality",
+    "Elements": "Post-neonatal Infant Mortality",
+    "US_Pct_or_Rate_2003": 2.2,
+    "Healthy_People_2010_Target": 1.2
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Breast Cancer (Female)",
+    "US_Pct_or_Rate_2003": 25.3,
+    "Healthy_People_2010_Target": 21.3
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Colon Cancer",
+    "US_Pct_or_Rate_2003": 19.1,
+    "Healthy_People_2010_Target": 13.7
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Coronary Heart Disease",
+    "US_Pct_or_Rate_2003": 172,
+    "Healthy_People_2010_Target": 162
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Homicide",
+    "US_Pct_or_Rate_2003": 6,
+    "Healthy_People_2010_Target": 2.8
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Lung Cancer",
+    "US_Pct_or_Rate_2003": 54.1,
+    "Healthy_People_2010_Target": 43.3
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Motor Vehicle Injuries",
+    "US_Pct_or_Rate_2003": 14.8,
+    "Healthy_People_2010_Target": 8
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Stroke",
+    "US_Pct_or_Rate_2003": 53,
+    "Healthy_People_2010_Target": 50
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Suicide",
+    "US_Pct_or_Rate_2003": 10.8,
+    "Healthy_People_2010_Target": 4.8
+  },
+  {
+    "Categories": "Death Measures",
+    "Elements": "Unintentional Injury",
+    "US_Pct_or_Rate_2003": 37.3,
+    "Healthy_People_2010_Target": 17.1
+  }
+]

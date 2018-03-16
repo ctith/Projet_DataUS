@@ -1,0 +1,4626 @@
+[
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Strata_Determining_Factors",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Listing of strata factors",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Number_Counties",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Number of peer counties",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 8"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Population_Size",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, population size",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 4"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Population_Size",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, population size",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 4-5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Population_Size",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population size",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 4-5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Population_Density",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, population density (people per square mile)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 4"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Population_Density",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, population density (people per square mile)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 4-5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Population_Density",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population density (people per square mile)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 4-5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Poverty",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, individuals living below poverty level",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Poverty",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, individuals living below poverty level",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Poverty",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, individuals living below poverty level",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Age_19_Under",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, population under age 19",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Age_19_Under",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, population under age 19",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Age_19_Under",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population under age 19",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Age_19_64",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, population age 19-64",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Age_19_64",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, population age 19-64",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Age_19_65",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population age 19-64",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Age_65_84",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, population age 65-84",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Age_65_84",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, population age 65-84",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Age_65_85",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population age 65-84",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Age_85_and_Over",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, population age 85+",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Age_85_and_Over",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, population age 85+",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Age_85_and_Over",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, population age 85+",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "White",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_White",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_White",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Black",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Black",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Black",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Native_American",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, American Indian",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Native_American",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, American Indian",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Native_American",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, American Indian",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Asian",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, Asian/Pacific Islander",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Asian",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, Asian/Pacific Islander",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Asian",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, Asian/Pacific Islander",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Hispanic",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, Hispanic origin",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Min_Hispanic",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, Hispanic origin",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "Demographics",
+    "COLUMN_NAME": "Max_Hispanic",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, Hispanic origin",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 5"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "ALE",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, average life expectancy",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Min_ALE",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, average life expectancy",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Max_ALE",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, average life expectancy",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "US_ALE",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Medium for all U.S. counties, average life expectancy",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Min_All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Max_All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "US_All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Medium for all U.S. counties, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Min_All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Max_All_Death",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, all causes of death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Min_Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Max_Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "US_Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Medium for all U.S. counties, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Min_Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Max_Health_Status",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, self-rated health status",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 9-10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Min_Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "Max_Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "US_Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Medium for all U.S. counties, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Min_Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "SummaryMeasuresOfHealth",
+    "COLUMN_NAME": "CI_Max_Unhealthy_Days",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, average number of unhealthy days in past month",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Wh_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, complications of pregnancy/birth, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Wh_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, complications of pregnancy/birth, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Wh_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, complications of pregnancy/birth, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Bl_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, complications of pregnancy/birth, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Bl_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, complications of pregnancy/birth, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Bl_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, complications of pregnancy/birth, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Ot_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, complications of pregnancy/birth, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Ot_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, complications of pregnancy/birth, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Ot_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, complications of pregnancy/birth, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Hi_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, complications of pregnancy/birth, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Hi_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, complications of pregnancy/birth, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Hi_Comp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, complications of pregnancy/birth, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Wh_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, birth defects, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Wh_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, birth defects, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Wh_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, birth defects, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Bl_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, birth defects, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Bl_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, birth defects, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Bl_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, birth defects, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Ot_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, birth defects, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Ot_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, birth defects, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Ot_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, birth defects, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "A_Hi_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, under age 1, birth defects, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_A_Hi_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, under age 1, birth defects, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_A_Hi_BirthDef",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, under age 1, birth defects, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "B_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 1-14, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_B_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 1-14, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_B_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 1-14, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Ot_homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Ot_homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Ot_homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "C_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 15-24, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_C_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 15-24, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_C_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 15-24, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, injuries, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, injuries, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, injuries, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_Injury",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, injuries, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, suicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, suicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, suicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_Suicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, suicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, hiv/aids, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, hiv/aids, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, hiv/aids, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, hiv/aids, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, hiv/aids, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, hiv/aids, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, hiv/aids, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, hiv/aids, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, hiv/aids, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, hiv/aids, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, hiv/aids, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_HIV",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, hiv/aids, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Wh_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, homicide, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Bl_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, homicide, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Ot_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, homicide, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "D_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 25-44, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_D_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 25-44, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_D_Hi_Homicide",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 25-44, homicide, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "E_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 45-64, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_E_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 45-64, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_E_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 45-64, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Wh_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, heart disease, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Bl_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, heart disease, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Ot_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, heart disease, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Hi_HeartDis",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, heart disease, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Wh_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, cancer, White",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Bl_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, cancer, Black",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Ot_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, cancer, other",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "F_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, ages 65+, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Min_F_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, ages 65+, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "CI_Max_F_Hi_Cancer",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, ages 65+, cancer, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 10-12"
+  },
+  {
+    "PAGE_NAME": "LeadingCausesOfDeath",
+    "COLUMN_NAME": "LCD_Time_Span",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Time period of reported data for national leading causes of dealth",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 8"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "LBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "LBW_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_LBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_LBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_LBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_LBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "VLBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "VLBW_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_VLBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_VLBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_VLBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_VLBW",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Premature",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Premature_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Premature",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Premature",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Premature",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Premature",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Under_18",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Under_18_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Under_18",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Under_18",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Under_18",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Under_18",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Over_40",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Over_40_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Over_40",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Over_40",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Over_40",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Over_40",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Unmarried",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Unmarried_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Unmarried",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Unmarried",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Unmarried",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Unmarried",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Late_Care",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Late_Care_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Favorable indicator, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Late_Care",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Tenth percentile from peer counties, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Late_Care",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Nintieth percentile from peer counties, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Late_Care",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Late_Care",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, birth measures, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 13-16"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Infant_Mortality",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Infant_Mortality_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Infant_Mortality",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Infant_Mortality",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Infant_Mortality",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Infant_Mortality",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Wh_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Wh_Non_Hisp_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_IM_Wh_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_IM_Wh_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_IM_Wh_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_IM_Wh_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality, White non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Bl_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Bl_Non_Hisp_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_IM_Bl_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_IM_Bl_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_IM_Bl_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_IM_Bl_Non_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality, Black non Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Hisp_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_IM_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_IM_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_IM_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_IM_Hisp",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality, Hispanic",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Neonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Neonatal_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_IM_Neonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_IM_Neonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_IM_Neonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_IM_Neonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality, neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Postneonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "IM_Postneonatal_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_IM_Postneonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_IM_Postneonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_IM_Postneonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_IM_Postneonatal",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, infant mortality, post-neonatal",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 17"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Brst_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Brst_Cancer_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Brst_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Brst_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Brst_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Brst_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Col_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Col_Cancer_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Col_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Col_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Col_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Col_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CHD",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CHD_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_CHD",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_CHD",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_CHD",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_CHD",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Homicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Homicide_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Homicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Homicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Homicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Homicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Lung_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Lung_Cancer_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Lung_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Lung_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Lung_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Lung_Cancer",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "MVA",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "MVA_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_MVA",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_MVA",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_MVA",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_MVA",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Stroke",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Stroke_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Stroke",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Stroke",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Stroke",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Stroke",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Suicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Suicide_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Suicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Suicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Suicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Suicide",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Injury",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Injury_Ind",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Min_Injury",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Tenth percentile from peer counties, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Max_Injury",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Nintieth percentile from peer counties, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Min_Injury",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval lower limit, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "CI_Max_Injury",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Confidence interval upper limit, death measures, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 18"
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Total_Births",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, total number of births",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "Total_Deaths",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, total number of deaths",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "MeasuresOfBirthAndDeath",
+    "COLUMN_NAME": "MOBD_Time_Span",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Time period of reported data for measures of birth and death",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 8"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_LBW_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, low birth wt. (<2500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_VLBW_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, very low birth wt. (<1500 g)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Premature_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, premature births (<37 weeks)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Under_18_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator,  births to women under 18",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Over_40_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, births to women over 40",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Unmarried_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, births to unmarried women",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Late_Care_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, no care in first trimester",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Infant_Mortality_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_IM_Wh_Non_Hisp_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, White non Hispanic infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_IM_Bl_Non_Hisp_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, Black non Hispanic infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_IM_Hisp_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, Hispanic infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_IM_Neonatal_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, neonatal infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_IM_Postneonatal_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, post-neonatal infant mortality",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Brst_Cancer_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, breast cancer (female)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Col_Cancer_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, colon cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_CHD_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, coronary heart disease",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Homicide_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, homicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Lung_Cancer_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, lung cancer",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_MVA_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, motor vehicle injuries",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Stroke_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, stroke",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Suicide_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, suicide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "RelativeHealthImportance",
+    "COLUMN_NAME": "RHI_Injury_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Relative health indicator, unintentional injury",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 19-20"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "No_HS_Diploma",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, no high school diploma (among adults age 25 and older)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 20-22"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Unemployed",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, unemployed",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 20-22"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Sev_Work_Disabled",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, severely work disabled",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 20-22"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Major_Depression",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, major depression",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 20-22"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Recent_Drug_Use",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, recent drug users (within past month)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 20-22"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Ecol_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, E.coli reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Ecol_Rpt_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, E.coli",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Ecol_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, E.coli expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Salm_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Salmonella reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Salm_Rpt_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Salmonella",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Salm_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Salmonella expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Shig_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Shigella reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Shig_Rpt_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Shigella",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Shig_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Shigella expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 23-24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Toxic_Chem",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, toxic chemicals released annually",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 24"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Carbon_Monoxide_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, carbon monoxide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Nitrogen_Dioxide_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, nitrogen dioxide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Sulfur_Dioxide_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, sulfur dioxide",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Ozone_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, ozone",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Particulate_Matter_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, particulate matter",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "Lead_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Air quality standard indicator, lead",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 25"
+  },
+  {
+    "PAGE_NAME": "VunerablePopsAndEnvHealth",
+    "COLUMN_NAME": "EH_Time_Span",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Time period of reported data for infectious disease in the environmental health",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 8"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "FluB_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Haemophilus Influenzae B reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "FluB_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Haemophilus Influenzae B",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "FluB_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Haemophilus Influenzae B expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepA_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Hepatitis A reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepA_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Hepatitis A",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepA_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Hepatitis A expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepB_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Hepatitis B reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepB_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Hepatitis B",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "HepB_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Hepatitis B expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Meas_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Measles reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Meas_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Measles",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Meas_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Measles expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Pert_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Pertussis reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Pert_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Pertussis",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Pert_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Pertussis expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CRS_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Congenital Rubella Syndrome reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CRS_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Congenital Rubella Syndrome",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CRS_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Congenital Rubella Syndrome expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Syphilis_Rpt",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Syphilis reported cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Syphilis_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Favorable indicator, Syphilis",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Syphilis_Exp",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, Syphilis expected cases",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 26"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "ID_Time_Span",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Time period of reported data for infectious disease cases in the preventive services use",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 8"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Pap_Smear",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, pap smears (18+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Min_Pap_Smear",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, pap smears (18+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Max_Pap_Smear",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, pap smears (18+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Mammogram",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, mammography (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Min_Mammogram",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, mammography (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Max_Mammogram",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, mammography (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Proctoscopy",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, sigmoidoscopy (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Min_Proctoscopy",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, sigmoidoscopy (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Max_Proctoscopy",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, sigmoidoscopy (50+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Pneumo_Vax",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, pneumonia vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Min_Pneumo_Vax",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, pneumonia vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Max_Pneumo_Vax",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, pneumonia vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "Flu_Vac",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, flu vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Min_Flu_Vac",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, flu vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "PreventiveServicesUse",
+    "COLUMN_NAME": "CI_Max_Flu_Vac",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, flu vaccine (65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 27"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "State_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-digit state identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "County_FIPS_Code",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Three-digit county identifier, developed by the National Bureau of Standards",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 6"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CHSI_County_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of county",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CHSI_State_Name",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Name of State or District of Columbia",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CHSI_State_Abbr",
+    "DATA_TYPE": "Text",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Two-character postal abbreviation for state name",
+    "REFERENCE": ""
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Strata_ID_Number",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "CHSI Peer County Stratum Number",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Pages 6-8"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "No_Exercise",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, no exercise",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_No_Exercise",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, no exercise",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_No_Exercise",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, no exercise",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Few_Fruit_Veg",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, few fruits/vegetables",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_Fruit_Veg",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, few fruits/vegetables",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_Fruit_Veg",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, few fruits/vegetables",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Obesity",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, obesity",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_Obesity",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, obesity",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_Obesity",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, obesity",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "High_Blood_Pres",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, high blood pressure",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_High_Blood_Pres",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, high blood pressure",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_High_Blood_Pres",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, high blood pressure",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Smoker",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, smoker",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_Smoker",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, smoker",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_Smoker",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, smoker",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Diabetes",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "County data, diabetes",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Min_Diabetes",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval lower limit, diabetes",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "CI_Max_Diabetes",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "Y",
+    "DESCRIPTION": "Confidence interval upper limit, diabetes",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 28-29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Uninsured",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, uninsured individuals",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Elderly_Medicare",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, medicare beneficiaries, elderly (age 65+)",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Disabled_Medicare",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, medicare beneficiaries, disabled",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 29"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Prim_Care_Phys_Rate",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, primary care physicians per 100,000 pop.",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 30"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Dentist_Rate",
+    "DATA_TYPE": "Decimal",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "County data, dentists per 100,000 pop.",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 30"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "Community_Health_Center_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Indicator for any Community/Migrant Health Centers located in the county",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 30"
+  },
+  {
+    "PAGE_NAME": "RiskFactorsAndAccessToCare",
+    "COLUMN_NAME": "HPSA_Ind",
+    "DATA_TYPE": "Integer",
+    "IS_PERCENT_DATA": "N",
+    "DESCRIPTION": "Indicator for single county designated Health Professional Shortage Area",
+    "REFERENCE": "Data Sources, Definitions, and Notes, Page 30"
+  }
+]
